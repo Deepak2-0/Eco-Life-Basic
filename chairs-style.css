@@ -1,0 +1,73 @@
+body{
+  font-family: 'Montserrat','Ubuntu', sans-serif;
+
+}
+
+.navbar-brand{
+  height: 70px;
+  width:100px;
+
+}
+.logo{
+  width:100%;
+  height: 100%;
+}
+
+.main{
+
+  /* height: 100vh; */
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+
+}
+.line{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2% 0;
+
+}
+.product{
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  margin-bottom: 5%;
+  align-items: center;
+  /* padding: 1%; */
+
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+.price-cart{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* FOOTER SECTION  */
+.footer{
+  background-color: #a2d5f2;
+  padding: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+.footer h4{
+  color:grey;
+}
+.footer-box{
+  margin: 0 5%;
+}
+.social-media{
+  display: flex;
+  flex-direction: column;
+
+}
+.social-media-icon{
+  display: flex;
+
+}
+.media-icon{
+    padding: 0 0.5rem;
+}
